@@ -1,6 +1,6 @@
 package com.andersonsilvapp.convidados.view.listener
 
 interface OnGuestListener {
-  fun onClick()
-  fun onDelete()
+  fun onClick(id: Int)
+  fun onDelete(id: Int)
 }
